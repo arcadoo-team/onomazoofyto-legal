@@ -1,1 +1,481 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms of Use</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header { padding: 18px 16px; border-bottom: 1px solid rgba(127,127,127,.25); position: sticky; top: 0; background: rgba(255,255,255,.85); backdrop-filter: blur(10px); }
+    @media (prefers-color-scheme: dark){ header{ background: rgba(0,0,0,.5); } }
+    main { padding: 18px 16px; max-width: 920px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 1.4rem; }
+    h2 { margin-top: 22px; font-size: 1.1rem; }
+    .muted { opacity: .8; }
+    .box { border: 1px solid rgba(127,127,127,.25); border-radius: 14px; padding: 12px; margin: 14px 0; }
+    .langbar { display:flex; gap:10px; align-items:center; flex-wrap: wrap; }
+    select { padding: 8px 10px; border-radius: 10px; border: 1px solid rgba(127,127,127,.35); background: transparent; }
+    a { color: inherit; }
+    ul { padding-left: 20px; }
+    .rtl { direction: rtl; text-align: right; }
+    .pill { display:inline-block; padding: 2px 10px; border-radius: 999px; border: 1px solid rgba(127,127,127,.35); font-size: .85rem; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="langbar">
+    <div>
+      <div class="pill" id="appPill">APP_NAME</div>
+      <div class="muted" id="docMeta">Terms of Use • Effective: EFFECTIVE_DATE</div>
+    </div>
+    <div style="margin-left:auto; display:flex; gap:10px; align-items:center;">
+      <label for="langSelect" class="muted">Language</label>
+      <select id="langSelect" aria-label="Language selector">
+        <option value="en">English</option>
+        <option value="el">Ελληνικά</option>
+        <option value="es">Español</option>
+        <option value="it">Italiano</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+  </div>
+</header>
 
+<main>
+  <!-- EN -->
+  <section data-lang="en">
+    <h1>Terms of Use</h1>
+    <p class="muted">
+      These Terms govern your use of <b>APP_NAME</b> provided by <b>DEVELOPER_NAME</b>.
+      Contact: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.
+    </p>
+
+    <div class="box">
+      <b>Key points</b>
+      <ul>
+        <li>Be respectful; no cheating, abuse, or harassment.</li>
+        <li>The game may show ads; you can manage ad personalization choices in-app.</li>
+        <li>AI scoring (if enabled) may evaluate submitted answers.</li>
+      </ul>
+    </div>
+
+    <h2>1) Eligibility</h2>
+    <p>You must comply with applicable laws. If you are under the age required for consent in your country, use the app only with appropriate permission and keep personalized ads off.</p>
+
+    <h2>2) Accounts</h2>
+    <p>You are responsible for your account activity. Do not share access tokens or misuse the login process.</p>
+
+    <h2>3) Acceptable use</h2>
+    <ul>
+      <li>No harassment, hate speech, or threats.</li>
+      <li>No cheating, exploiting, reverse engineering, or disrupting rooms/servers.</li>
+      <li>No attempts to access other users’ data or systems.</li>
+    </ul>
+
+    <h2>4) Ads & optional purchases</h2>
+    <p>The app may show ads (e.g., AdMob). Some ads may be personalized if you consent where required. You can change your preferences in the app’s Privacy & Ads menu.</p>
+
+    <h2>5) AI scoring (optional)</h2>
+    <p>If AI scoring is enabled, answers you submit may be sent to an AI service (e.g., Google Gemini) for evaluation. AI results may be imperfect; you can still allow players to resolve disputes in-game.</p>
+
+    <h2>6) Availability & changes</h2>
+    <p>We may update, suspend, or discontinue features at any time. We may also update these Terms.</p>
+
+    <h2>7) Disclaimer</h2>
+    <p>The app is provided “as is” without warranties to the fullest extent permitted by law.</p>
+
+    <h2>8) Limitation of liability</h2>
+    <p>To the fullest extent permitted by law, we are not liable for indirect or consequential damages arising from use of the app.</p>
+
+    <h2>9) Contact</h2>
+    <p>Questions? Email <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+  </section>
+
+  <!-- EL -->
+  <section data-lang="el" hidden>
+    <h1>Όροι Χρήσης</h1>
+    <p class="muted">
+      Οι παρόντες όροι διέπουν τη χρήση του <b>APP_NAME</b> από τον/την <b>DEVELOPER_NAME</b>.
+      Επικοινωνία: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.
+    </p>
+
+    <div class="box">
+      <b>Βασικά σημεία</b>
+      <ul>
+        <li>Σεβασμός, χωρίς cheating/κατάχρηση/παρενόχληση.</li>
+        <li>Ενδέχεται να εμφανίζονται διαφημίσεις· διαχειρίζεσαι την εξατομίκευση από το μενού.</li>
+        <li>AI βαθμολόγηση (αν ενεργοποιηθεί) μπορεί να αξιολογεί απαντήσεις.</li>
+      </ul>
+    </div>
+
+    <h2>1) Επιλεξιμότητα</h2>
+    <p>Πρέπει να τηρείς τους νόμους. Αν είσαι κάτω από την ηλικία συγκατάθεσης στη χώρα σου, χρησιμοποίησε το παιχνίδι μόνο με κατάλληλη άδεια και κράτα τις εξατομικευμένες διαφημίσεις κλειστές.</p>
+
+    <h2>2) Λογαριασμοί</h2>
+    <p>Είσαι υπεύθυνος/η για τη χρήση του λογαριασμού. Μην μοιράζεσαι tokens και μη καταχράσαι τη διαδικασία σύνδεσης.</p>
+
+    <h2>3) Επιτρεπτή χρήση</h2>
+    <ul>
+      <li>Όχι παρενόχληση, ρητορική μίσους ή απειλές.</li>
+      <li>Όχι cheating, exploits, reverse engineering ή διατάραξη servers/δωματίων.</li>
+      <li>Όχι προσπάθειες πρόσβασης σε δεδομένα άλλων παικτών ή συστήματα.</li>
+    </ul>
+
+    <h2>4) Διαφημίσεις</h2>
+    <p>Το παιχνίδι μπορεί να εμφανίζει διαφημίσεις (π.χ. AdMob). Κάποιες μπορεί να είναι εξατομικευμένες αν υπάρχει συγκατάθεση όπου απαιτείται. Μπορείς να αλλάξεις προτιμήσεις στο “Απόρρητο & Διαφημίσεις”.</p>
+
+    <h2>5) AI βαθμολόγηση (προαιρετικό)</h2>
+    <p>Αν είναι ενεργό, οι απαντήσεις μπορεί να σταλούν σε υπηρεσία AI (π.χ. Google Gemini) για αξιολόγηση. Τα αποτελέσματα AI μπορεί να μην είναι τέλεια· στο παιχνίδι μπορεί να υπάρχει διαδικασία επίλυσης διαφωνιών.</p>
+
+    <h2>6) Διαθεσιμότητα & αλλαγές</h2>
+    <p>Μπορούμε να ενημερώσουμε/αναστείλουμε/τερματίσουμε λειτουργίες και να ενημερώσουμε τους όρους.</p>
+
+    <h2>7) Αποποίηση</h2>
+    <p>Το παιχνίδι παρέχεται “ως έχει”, χωρίς εγγυήσεις στο μέγιστο που επιτρέπει ο νόμος.</p>
+
+    <h2>8) Περιορισμός ευθύνης</h2>
+    <p>Στο μέγιστο που επιτρέπει ο νόμος, δεν ευθυνόμαστε για έμμεσες ή επακόλουθες ζημίες.</p>
+
+    <h2>9) Επικοινωνία</h2>
+    <p>Απορίες; <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+  </section>
+
+  <!-- ES -->
+  <section data-lang="es" hidden>
+    <h1>Términos de uso</h1>
+    <p class="muted">Estos términos rigen el uso de <b>APP_NAME</b> por <b>DEVELOPER_NAME</b>. Contacto: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>Puntos clave</b>
+      <ul>
+        <li>Respeto; sin trampas, abuso o acoso.</li>
+        <li>Puede haber anuncios; puedes gestionar la personalización en la app.</li>
+        <li>La puntuación con IA (si se habilita) puede evaluar respuestas.</li>
+      </ul>
+    </div>
+
+    <h2>1) Requisitos</h2>
+    <p>Cumple las leyes aplicables. Si eres menor de la edad de consentimiento requerida, usa la app con el permiso adecuado y mantén desactivados los anuncios personalizados.</p>
+
+    <h2>2) Cuentas</h2>
+    <p>Eres responsable de la actividad de tu cuenta. No compartas tokens ni abuses del inicio de sesión.</p>
+
+    <h2>3) Uso aceptable</h2>
+    <ul>
+      <li>No acoso, discurso de odio ni amenazas.</li>
+      <li>No trampas, exploits, ingeniería inversa ni interrupciones.</li>
+      <li>No intentos de acceder a datos/sistemas de otros usuarios.</li>
+    </ul>
+
+    <h2>4) Anuncios</h2>
+    <p>La app puede mostrar anuncios (p. ej., AdMob). Algunos pueden ser personalizados si existe consentimiento donde sea requerido. Puedes cambiar preferencias en “Privacidad y anuncios”.</p>
+
+    <h2>5) Puntuación con IA (opcional)</h2>
+    <p>Si se habilita, tus respuestas pueden enviarse a un servicio de IA (p. ej., Google Gemini). Los resultados pueden no ser perfectos; puede existir resolución de disputas en el juego.</p>
+
+    <h2>6) Cambios</h2>
+    <p>Podemos actualizar o suspender funciones y modificar estos términos.</p>
+
+    <h2>7) Exención</h2>
+    <p>La app se ofrece “tal cual” sin garantías en la medida permitida por la ley.</p>
+
+    <h2>8) Limitación de responsabilidad</h2>
+    <p>No somos responsables de daños indirectos o consecuentes en la medida permitida por la ley.</p>
+
+    <h2>9) Contacto</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+  <!-- IT -->
+  <section data-lang="it" hidden>
+    <h1>Termini di utilizzo</h1>
+    <p class="muted">Questi termini regolano l’uso di <b>APP_NAME</b> fornita da <b>DEVELOPER_NAME</b>. Contatto: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>Punti chiave</b>
+      <ul>
+        <li>Rispetto; niente cheating, abusi o molestie.</li>
+        <li>Possibili annunci; puoi gestire la personalizzazione nell’app.</li>
+        <li>Punteggio IA (se attivo) può valutare le risposte.</li>
+      </ul>
+    </div>
+
+    <h2>1) Idoneità</h2>
+    <p>Rispetta le leggi applicabili. Se sei sotto l’età richiesta per il consenso, usa l’app con il permesso adeguato e lascia disattivati gli annunci personalizzati.</p>
+
+    <h2>2) Account</h2>
+    <p>Sei responsabile dell’uso del tuo account. Non condividere token e non abusare del login.</p>
+
+    <h2>3) Uso consentito</h2>
+    <ul>
+      <li>Niente molestie, odio o minacce.</li>
+      <li>Niente cheating, exploit, reverse engineering o interruzioni.</li>
+      <li>Nessun tentativo di accedere ai dati/sistemi altrui.</li>
+    </ul>
+
+    <h2>4) Annunci</h2>
+    <p>L’app può mostrare annunci (es. AdMob). Alcuni possono essere personalizzati con consenso dove richiesto. Puoi modificare le preferenze in “Privacy e annunci”.</p>
+
+    <h2>5) Punteggio IA (opzionale)</h2>
+    <p>Se attivo, le risposte possono essere inviate a un servizio IA (es. Google Gemini). I risultati possono essere imperfetti; possono esistere meccanismi di risoluzione dispute nel gioco.</p>
+
+    <h2>6) Modifiche</h2>
+    <p>Possiamo aggiornare o sospendere funzionalità e modificare questi termini.</p>
+
+    <h2>7) Dichiarazione di non responsabilità</h2>
+    <p>L’app è fornita “così com’è” senza garanzie nei limiti consentiti dalla legge.</p>
+
+    <h2>8) Limitazione di responsabilità</h2>
+    <p>Non siamo responsabili per danni indiretti o consequenziali nei limiti consentiti dalla legge.</p>
+
+    <h2>9) Contatto</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+  <!-- FR -->
+  <section data-lang="fr" hidden>
+    <h1>Conditions d’utilisation</h1>
+    <p class="muted">Ces conditions régissent l’utilisation de <b>APP_NAME</b> fournie par <b>DEVELOPER_NAME</b>. Contact : <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>Points clés</b>
+      <ul>
+        <li>Respect ; pas de triche, d’abus ou de harcèlement.</li>
+        <li>Publicités possibles ; vous pouvez gérer la personnalisation dans l’app.</li>
+        <li>Notation IA (si activée) peut évaluer les réponses.</li>
+      </ul>
+    </div>
+
+    <h2>1) Éligibilité</h2>
+    <p>Respectez les lois applicables. Si vous êtes en dessous de l’âge requis pour le consentement, utilisez l’app avec l’autorisation appropriée et laissez les publicités personnalisées désactivées.</p>
+
+    <h2>2) Comptes</h2>
+    <p>Vous êtes responsable de l’activité de votre compte. Ne partagez pas vos tokens et n’abusez pas de la connexion.</p>
+
+    <h2>3) Utilisation acceptable</h2>
+    <ul>
+      <li>Pas de harcèlement, de haine ou de menaces.</li>
+      <li>Pas de triche, d’exploits, d’ingénierie inverse ni de perturbation.</li>
+      <li>Pas de tentative d’accès aux données/systèmes d’autrui.</li>
+    </ul>
+
+    <h2>4) Publicités</h2>
+    <p>L’app peut afficher des publicités (ex. AdMob). Certaines peuvent être personnalisées avec consentement lorsque requis. Vous pouvez modifier vos préférences dans “Confidentialité & publicités”.</p>
+
+    <h2>5) Notation IA (optionnelle)</h2>
+    <p>Si activée, vos réponses peuvent être envoyées à un service IA (ex. Google Gemini). Les résultats peuvent être imparfaits ; un mécanisme de résolution peut exister dans le jeu.</p>
+
+    <h2>6) Modifications</h2>
+    <p>Nous pouvons mettre à jour/suspendre des fonctionnalités et modifier ces conditions.</p>
+
+    <h2>7) Avertissement</h2>
+    <p>L’app est fournie “en l’état” sans garantie, dans la mesure permise par la loi.</p>
+
+    <h2>8) Limitation de responsabilité</h2>
+    <p>Nous ne sommes pas responsables des dommages indirects ou consécutifs, dans la mesure permise par la loi.</p>
+
+    <h2>9) Contact</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+  <!-- DE -->
+  <section data-lang="de" hidden>
+    <h1>Nutzungsbedingungen</h1>
+    <p class="muted">Diese Bedingungen regeln die Nutzung von <b>APP_NAME</b> durch <b>DEVELOPER_NAME</b>. Kontakt: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>Kernpunkte</b>
+      <ul>
+        <li>Respektvoll bleiben; kein Cheating, Missbrauch oder Belästigung.</li>
+        <li>Werbung möglich; Personalisierung kann in der App verwaltet werden.</li>
+        <li>KI-Bewertung (optional) kann Antworten auswerten.</li>
+      </ul>
+    </div>
+
+    <h2>1) Teilnahme</h2>
+    <p>Halte geltende Gesetze ein. Wenn du unter dem erforderlichen Einwilligungsalter bist, nutze die App nur mit entsprechender Erlaubnis und lasse personalisierte Werbung aus.</p>
+
+    <h2>2) Konten</h2>
+    <p>Du bist für die Aktivitäten deines Kontos verantwortlich. Teile keine Tokens und missbrauche den Login nicht.</p>
+
+    <h2>3) Zulässige Nutzung</h2>
+    <ul>
+      <li>Keine Belästigung, Hassrede oder Drohungen.</li>
+      <li>Kein Cheating, Exploits, Reverse Engineering oder Störung von Servern/Räumen.</li>
+      <li>Keine Versuche, auf Daten/Systeme anderer zuzugreifen.</li>
+    </ul>
+
+    <h2>4) Werbung</h2>
+    <p>Die App kann Werbung anzeigen (z. B. AdMob). Manche Anzeigen können mit Einwilligung personalisiert sein, wo erforderlich. Einstellungen findest du unter „Datenschutz & Werbung“.</p>
+
+    <h2>5) KI-Bewertung (optional)</h2>
+    <p>Wenn aktiv, können Antworten an einen KI-Dienst (z. B. Google Gemini) zur Auswertung gesendet werden. Ergebnisse können ungenau sein; es kann Mechanismen zur Streitlösung im Spiel geben.</p>
+
+    <h2>6) Änderungen</h2>
+    <p>Wir können Funktionen aktualisieren/pausieren und diese Bedingungen ändern.</p>
+
+    <h2>7) Haftungsausschluss</h2>
+    <p>Die App wird „wie sie ist“ ohne Garantien bereitgestellt, soweit gesetzlich zulässig.</p>
+
+    <h2>8) Haftungsbeschränkung</h2>
+    <p>Wir haften nicht für indirekte oder Folgeschäden, soweit gesetzlich zulässig.</p>
+
+    <h2>9) Kontakt</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+  <!-- HI -->
+  <section data-lang="hi" hidden>
+    <h1>उपयोग की शर्तें</h1>
+    <p class="muted"><b>APP_NAME</b> का उपयोग <b>DEVELOPER_NAME</b> द्वारा प्रदान की गई इन शर्तों के अधीन है। संपर्क: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>मुख्य बातें</b>
+      <ul>
+        <li>सम्मान रखें; चीटिंग/दुरुपयोग/उत्पीड़न नहीं।</li>
+        <li>विज्ञापन हो सकते हैं; ऐप में व्यक्तिगत विज्ञापन विकल्प बदले जा सकते हैं।</li>
+        <li>AI स्कोरिंग (यदि सक्रिय) उत्तरों का मूल्यांकन कर सकती है।</li>
+      </ul>
+    </div>
+
+    <h2>1) पात्रता</h2>
+    <p>लागू कानूनों का पालन करें। यदि आप सहमति की आवश्यक आयु से कम हैं, तो उचित अनुमति के साथ ही उपयोग करें और व्यक्तिगत विज्ञापन बंद रखें।</p>
+
+    <h2>2) खाते</h2>
+    <p>अपने खाते की गतिविधि के लिए आप जिम्मेदार हैं। टोकन साझा न करें और लॉगिन का दुरुपयोग न करें।</p>
+
+    <h2>3) स्वीकार्य उपयोग</h2>
+    <ul>
+      <li>उत्पीड़न, घृणा भाषण, या धमकी नहीं।</li>
+      <li>चीटिंग, exploit, reverse engineering, या व्यवधान नहीं।</li>
+      <li>दूसरों के डेटा/सिस्टम तक पहुँचने की कोशिश नहीं।</li>
+    </ul>
+
+    <h2>4) विज्ञापन</h2>
+    <p>ऐप विज्ञापन दिखा सकता है (जैसे AdMob)। जहाँ आवश्यक हो, सहमति के साथ कुछ विज्ञापन व्यक्तिगत हो सकते हैं। आप “Privacy & Ads” में सेटिंग बदल सकते हैं।</p>
+
+    <h2>5) AI स्कोरिंग (वैकल्पिक)</h2>
+    <p>यदि सक्रिय, उत्तरों को AI सेवा (जैसे Google Gemini) को मूल्यांकन हेतु भेजा जा सकता है। परिणाम पूर्णतः सही न भी हों; गेम में विवाद समाधान हो सकता है।</p>
+
+    <h2>6) उपलब्धता/परिवर्तन</h2>
+    <p>हम फीचर्स अपडेट/स्थगित कर सकते हैं और शर्तें बदल सकते हैं।</p>
+
+    <h2>7) अस्वीकरण</h2>
+    <p>ऐप “जैसा है” आधार पर प्रदान की जाती है, कानून द्वारा अनुमत सीमा तक।</p>
+
+    <h2>8) दायित्व सीमा</h2>
+    <p>कानून द्वारा अनुमत सीमा तक, अप्रत्यक्ष/परिणामी नुकसान के लिए हम उत्तरदायी नहीं हैं।</p>
+
+    <h2>9) संपर्क</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+  <!-- AR -->
+  <section data-lang="ar" hidden class="rtl">
+    <h1>شروط الاستخدام</h1>
+    <p class="muted">تحكم هذه الشروط استخدام <b>APP_NAME</b> المقدّم من <b>DEVELOPER_NAME</b>. للتواصل: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+    <div class="box">
+      <b>نقاط أساسية</b>
+      <ul>
+        <li>الالتزام بالاحترام؛ لا غش أو إساءة أو تحرّش.</li>
+        <li>قد توجد إعلانات؛ يمكن إدارة تخصيص الإعلانات داخل التطبيق.</li>
+        <li>التقييم بالذكاء الاصطناعي (اختياري) قد يقيم الإجابات.</li>
+      </ul>
+    </div>
+
+    <h2>1) الأهلية</h2>
+    <p>الالتزام بالقوانين. إذا كنت دون سن الموافقة المطلوب، استخدم التطبيق بإذن مناسب واترك الإعلانات المخصّصة مُعطّلة.</p>
+
+    <h2>2) الحسابات</h2>
+    <p>أنت مسؤول عن نشاط حسابك. لا تشارك الرموز (tokens) ولا تسيء استخدام تسجيل الدخول.</p>
+
+    <h2>3) الاستخدام المقبول</h2>
+    <ul>
+      <li>لا تحرّش ولا خطاب كراهية ولا تهديدات.</li>
+      <li>لا غش ولا استغلالات ولا هندسة عكسية ولا تعطيل.</li>
+      <li>لا محاولة للوصول إلى بيانات/أنظمة الآخرين.</li>
+    </ul>
+
+    <h2>4) الإعلانات</h2>
+    <p>قد يعرض التطبيق إعلانات (مثل AdMob). قد تكون بعض الإعلانات مخصّصة مع الموافقة حيث يلزم. يمكنك تعديل التفضيلات من “Privacy & Ads”.</p>
+
+    <h2>5) التقييم بالذكاء الاصطناعي (اختياري)</h2>
+    <p>إذا كانت الميزة مفعّلة، قد تُرسل الإجابات إلى خدمة ذكاء اصطناعي (مثل Google Gemini). النتائج قد لا تكون مثالية؛ قد توجد آلية حلّ نزاعات داخل اللعبة.</p>
+
+    <h2>6) التوفر والتغييرات</h2>
+    <p>يمكننا تحديث/تعليق الميزات وتعديل هذه الشروط.</p>
+
+    <h2>7) إخلاء المسؤولية</h2>
+    <p>يُقدَّم التطبيق “كما هو” دون ضمانات ضمن حدود القانون.</p>
+
+    <h2>8) حدود المسؤولية</h2>
+    <p>لا نتحمل المسؤولية عن الأضرار غير المباشرة ضمن حدود القانون.</p>
+
+    <h2>9) التواصل</h2>
+    <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  </section>
+
+<script>
+  const CONFIG = {
+    APP_NAME: "APP_NAME",
+    DEVELOPER_NAME: "DEVELOPER_NAME",
+    CONTACT_EMAIL: "CONTACT_EMAIL",
+    EFFECTIVE_DATE: "EFFECTIVE_DATE"
+  };
+
+  function replaceAllText(root, from, to){
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    let node;
+    while ((node = walker.nextNode())) {
+      node.nodeValue = node.nodeValue.split(from).join(to);
+    }
+  }
+
+  function applyConfig(){
+    const root = document.body;
+    replaceAllText(root, "APP_NAME", CONFIG.APP_NAME);
+    replaceAllText(root, "DEVELOPER_NAME", CONFIG.DEVELOPER_NAME);
+    replaceAllText(root, "CONTACT_EMAIL", CONFIG.CONTACT_EMAIL);
+    replaceAllText(root, "EFFECTIVE_DATE", CONFIG.EFFECTIVE_DATE);
+
+    document.getElementById("appPill").textContent = CONFIG.APP_NAME;
+    document.getElementById("docMeta").textContent = `Terms of Use • Effective: ${CONFIG.EFFECTIVE_DATE}`;
+
+    document.querySelectorAll('a[href="mailto:CONTACT_EMAIL"]').forEach(a => {
+      a.href = "mailto:" + CONFIG.CONTACT_EMAIL;
+      a.textContent = CONFIG.CONTACT_EMAIL;
+    });
+  }
+
+  function setLang(lang){
+    document.querySelectorAll("section[data-lang]").forEach(s => {
+      s.hidden = (s.getAttribute("data-lang") !== lang);
+    });
+    document.documentElement.lang = lang;
+    document.documentElement.dir = (lang === "ar") ? "rtl" : "ltr";
+    localStorage.setItem("legal_lang", lang);
+    location.hash = "lang=" + encodeURIComponent(lang);
+  }
+
+  function getLang(){
+    const m = (location.hash || "").match(/lang=([a-z]+)/i);
+    if (m) return m[1].toLowerCase();
+    return (localStorage.getItem("legal_lang") || "en").toLowerCase();
+  }
+
+  applyConfig();
+
+  const sel = document.getElementById("langSelect");
+  const initial = getLang();
+  sel.value = initial;
+  setLang(initial);
+  sel.addEventListener("change", () => setLang(sel.value));
+</script>
+</main>
+</body>
+</html>
